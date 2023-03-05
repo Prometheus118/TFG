@@ -1,0 +1,71 @@
+body {
+	background: url(../../Imagenes/Administrador/Fondo-Adminitrador.jpg) no-repeat center center fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height:100%;
+
+}
+
+h1 {
+	margin-left: 70px;
+	font-family: "Times New Roman";
+}
+
+.wrapper{
+max-width: 65rem;
+width: 100%;
+margin:  11% auto;
+padding: 5rem;
+text-align: center;
+background: #fff;
+border: 0.5rem solid #dac402;
+}
+
+button {
+	font-size: 2em;
+	background: #42cea4;
+	color: #ecf0f1;
+	border: 0.25rem solid #42cea4;
+	padding: 0.85em 0.75em;
+	margin: 1rem;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+button:hover {
+	color: #ce4242;
+}
+
+button::after {
+	content: "";
+	background: #ecf0f1;
+	position: absolute;
+	z-index: -1;
+	padding: 0.85em 0.75em;
+	display: block;
+}
+
+button[class^="grow"]::after {
+	transition: all 0.3s ease;
+}
+
+button[class^="grow"]:hover::after {
+	transition: all 0.3s ease-out;
+}
+
+button.grow_spin::after {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	transform: scale(0, 0) rotate(-180deg);
+}
+
+button.grow_spin:hover::after {
+	transform: scale(1, 1) rotate(0deg);
+}

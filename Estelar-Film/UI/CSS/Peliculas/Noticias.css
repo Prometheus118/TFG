@@ -1,0 +1,217 @@
+body{
+	background:url(../../Imagenes/Peliculas/Noticias/images/Fondo-Noticias.jpg)center center fixed;
+}
+.nav-link{
+    color: black;
+}
+.box {
+	background:#000;
+	width:100%;
+	margin-top:-3px;
+	color: white;
+}
+.box .border-left {
+	background:url(../../Imagenes/Peliculas/Home/images/border-left.gif) repeat-y left top;
+}
+.box .border-right {
+	background:url(../../Imagenes/Peliculas/Home/images/border-right.gif) repeat-y right top;
+}
+.box .inner {
+	padding:28px 50px 25px 50px;
+}
+h3 {
+	font-size:30px;
+	line-height:1.2em;
+	color:#c9cace;
+	margin-bottom:20px;
+}
+h3 b {
+	color:#e1e1e1;
+	font-weight:normal;
+}
+h3 span {
+	color:#d72a18;
+}
+h4 {
+	font-size:20px;
+	line-height:1.2em;
+	letter-spacing:-1px;
+	color:#000000;
+	margin-bottom:18px;
+	font-family: "Georgia";
+}
+.link1 {
+	display:block;
+	float:left;
+	background:url(../../Imagenes/Peliculas/Home/images/link1-right.png) no-repeat right top;
+	color:#fff;
+	text-decoration:none;
+	line-height:1em;
+	cursor:pointer;
+}
+.link1:hover span {
+	text-decoration:underline;
+}
+.link1 span {
+	display:block;
+	float:left;
+	padding:0 5px;
+	background:url(../../Imagenes/Peliculas/Home/images/link1-left.png) no-repeat left top;
+}
+.link1 span span {
+	display:block;
+	background:url(../../Imagenes/Peliculas/Home/images/link1-tail.gif) repeat-x left top;
+	padding:8px 15px;
+}
+.link2 {
+	display:block;
+	float:left;
+	background:url(../../Imagenes/Peliculas/Home/images/link2-right.gif) no-repeat right top;
+	color:#fff;
+	cursor:pointer;
+	text-decoration:none;
+	line-height:1em;
+}
+.link2:hover span {
+	text-decoration:underline;
+}
+.link2 span {
+	display:block;
+	float:left;
+	padding:0 6px;
+	background:url(../../Imagenes/Peliculas/Home/images/link2-left.gif) no-repeat left top;
+}
+.link2 span span {
+	display:block;
+	background:url(../../Imagenes/Peliculas/Home/images/link2-tail.gif) repeat-x left top;
+	padding:9px 15px 10px 15px;
+}
+.line-hor {
+	overflow:hidden;
+	font-size:0;
+	line-height:0;
+	width:918px;
+	height:8px;
+	margin-left:11px;
+	background:url(../../Imagenes/Peliculas/Home/images/line-hor.gif) repeat-x left top;
+	z-index:1;
+	position:relative;
+}
+#slogan {
+	height:322px;
+	position:relative;
+	background:#bfbfbf;
+	color:#1d1d1d;
+}
+#slogan .image {
+	position:absolute;
+	right:-30px;
+	top:-11px;
+	z-index:100;
+	width:572px;
+	height:348px;
+	background:url(../../Imagenes/Peliculas/Home/images/banner-img.png) no-repeat left top;
+}
+#slogan p {
+	margin-bottom:23px;
+}
+#slogan .inside {
+	padding:36px 0 0 50px;
+	width:450px;
+}
+.nav-link:hover{
+    background-color: rgb(226, 217, 217);
+}
+.p1{
+	font-family: "Garamond";
+	font-size: 18px;
+}
+.Footer{
+	background-color: rgb(252, 185, 0);
+}
+.h3{
+	color: rgb(20, 153, 15);
+}
+
+.titulo{
+	color: rgb(64, 250, 8);
+	font-family: "fantasy";
+}
+
+u{
+	font-family: "optima";
+	color: rgb(248, 91, 91);
+}
+
+
+#barraaceptacion {
+    display:flex;
+    position:fixed;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    padding-bottom:20px;
+    width:100%;
+    text-align:center;
+    min-height:50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#fff;
+    z-index:99999;
+}
+ 
+.inner2 {
+    width:100%;
+    position:absolute;
+    padding-left:5px;
+    font-family:verdana;
+    font-size:12px;
+    top:30%;
+}
+ 
+.inner2 a.ok {
+    padding:4px;
+    color:#00ff2e;
+    text-decoration:none;
+}
+ 
+.inner2 a.info {
+    padding-left:5px;
+    text-decoration:none;
+    color:#fffb00;
+}
+#content{
+    margin-top: 150px;
+}
+.list {
+	margin-top:-30px;
+}
+.list li {
+	width:100%;
+	overflow:hidden;
+	vertical-align:top;
+	line-height:1.714em;
+	padding-top:40px;
+}
+.list li img {
+	float:left;
+	margin:1px 20px 0 0;
+}
+.list li a {
+	text-decoration:none;
+}
+.list li a:hover {
+	color:#1ef516;
+}
+.img-fluid{
+    padding: 20px;
+}
+.row-centered{
+    text-align: center;
+}
+.img1{
+    height: 119px;
+    width: 212px;
+}
+.a1{
+	font-family: "Impact";
+}

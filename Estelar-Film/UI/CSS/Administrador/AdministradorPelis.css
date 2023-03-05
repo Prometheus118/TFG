@@ -1,0 +1,36 @@
+body {
+	background: url(../../Imagenes/Administrador/AdministradorPelis/Fondo-AdministradorPelis.jpg) no-repeat center center fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height:100%;
+
+}
+
+.peliculas {
+    max-width: 65rem;
+    width: 100%;
+    margin: 18% auto;
+    padding: 3rem;
+    background: #fff;
+    border: 0.5rem solid #ff0000;
+}
+
+.btn {
+    width: 100%;
+    position: relative;
+    bottom: -20px;
+}
+h2{
+    text-align: center;
+    font-family: 'Times';
+    font-size: 50px;
+}
+h4{
+    text-align: center;
+    font-family: 'Script';
+    font-size: 30px;
+}

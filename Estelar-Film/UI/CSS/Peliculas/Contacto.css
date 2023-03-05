@@ -1,0 +1,316 @@
+body {
+	background: url(../../Imagenes/Peliculas/Contacto/images/Fondo-Contacto.jpg)center center fixed;
+}
+
+.nav-link {
+	color: black;
+}
+
+.box {
+	background: #000;
+	width: 100%;
+	margin-top: -3px;
+	color: white;
+}
+
+.box .border-left {
+	background: url(../../Imagenes/Peliculas/Home/images/border-left.gif) repeat-y left top;
+}
+
+.box .border-right {
+	background: url(../../Imagenes/Peliculas/Home/images/border-right.gif) repeat-y right top;
+}
+
+.box .inner {
+	padding: 28px 50px 25px 50px;
+}
+
+h3 {
+	font-size: 30px;
+	line-height: 1.2em;
+	color: #c9cace;
+	margin-bottom: 20px;
+}
+
+h3 b {
+	color: #e1e1e1;
+	font-weight: normal;
+}
+
+h3 span {
+	color: #d72a18;
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 1.2em;
+	letter-spacing: -1px;
+	color: #000000;
+	margin-bottom: 18px;
+	font-family: "Georgia";
+}
+
+.link1 {
+	display: block;
+	float: left;
+	background: url(../../Imagenes/Peliculas/Home/images/link1-right.png) no-repeat right top;
+	color: #fff;
+	text-decoration: none;
+	line-height: 1em;
+	cursor: pointer;
+}
+
+.link1:hover span {
+	text-decoration: underline;
+}
+
+.link1 span {
+	display: block;
+	float: left;
+	padding: 0 5px;
+	background: url(../../Imagenes/Peliculas/Home/images/link1-left.png) no-repeat left top;
+}
+
+.link1 span span {
+	display: block;
+	background: url(../../Imagenes/Peliculas/Home/images/link1-tail.gif) repeat-x left top;
+	padding: 8px 15px;
+}
+.login-btn{
+	display: block;
+	float: right;
+}
+
+.line-hor {
+	overflow: hidden;
+	font-size: 0;
+	line-height: 0;
+	width: 918px;
+	height: 8px;
+	margin-left: 11px;
+	background: url(../../Imagenes/Peliculas/Home/images/line-hor.gif) repeat-x left top;
+	z-index: 1;
+	position: relative;
+}
+
+#slogan {
+	height: 322px;
+	position: relative;
+	background: #bfbfbf;
+	color: #1d1d1d;
+}
+
+#slogan .image {
+	position: absolute;
+	right: -30px;
+	top: -11px;
+	z-index: 100;
+	width: 572px;
+	height: 348px;
+	background: url(../../Imagenes/Peliculas/Home/images/banner-img.png) no-repeat left top;
+}
+
+#slogan p {
+	margin-bottom: 23px;
+}
+
+#slogan .inside {
+	padding: 36px 0 0 50px;
+	width: 450px;
+}
+
+.nav-link:hover {
+	background-color: rgb(226, 217, 217);
+}
+
+.p1 {
+	font-family: "Garamond";
+	font-size: 18px;
+}
+
+.Footer {
+	background-color: rgb(252, 185, 0);
+}
+
+.h3 {
+	color: rgb(20, 153, 15);
+}
+
+.titulo {
+	color: rgb(64, 250, 8);
+	font-family: "fantasy";
+}
+
+u {
+	font-family: "optima";
+	color: rgb(248, 91, 91);
+}
+
+
+#barraaceptacion {
+	display: flex;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding-bottom: 20px;
+	width: 100%;
+	text-align: center;
+	min-height: 50px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	z-index: 99999;
+}
+
+.inner2 {
+	width: 100%;
+	position: absolute;
+	padding-left: 5px;
+	font-family: verdana;
+	font-size: 12px;
+	top: 30%;
+}
+
+.inner2 a.ok {
+	padding: 4px;
+	color: #00ff2e;
+	text-decoration: none;
+}
+
+.inner2 a.info {
+	padding-left: 5px;
+	text-decoration: none;
+	color: #fffb00;
+}
+
+#content {
+	margin-top: 150px;
+}
+
+.list {
+	margin-top: -30px;
+}
+
+.list li {
+	width: 100%;
+	overflow: hidden;
+	vertical-align: top;
+	line-height: 1.714em;
+	padding-top: 40px;
+}
+
+.list li img {
+	float: left;
+	margin: 1px 20px 0 0;
+}
+
+.list li a {
+	text-decoration: none;
+}
+
+.list li a:hover {
+	color: #1ef516;
+}
+
+.img-fluid {
+	padding: 20px;
+}
+
+.row-centered {
+	text-align: center;
+}
+
+.img1 {
+	height: 119px;
+	width: 212px;
+}
+
+.a1 {
+	font-family: "Impact";
+}
+
+.address {
+	width: 100%;
+	overflow: hidden;
+	line-height: 1.714em;
+}
+
+.address span {
+	color: #e5ff00;
+}
+
+.address .fleft {
+	padding-right: 43px !important;
+	padding-right: 40px;
+}
+
+.address .fleft span {
+	float: left;
+	width: 80px !important;
+	width: 77px;
+	color: #e5ff00;
+}
+
+#contacts-form {
+	clear: right;
+	width: 842px;
+	overflow: hidden;
+}
+
+#contacts-form fieldset {
+	border: none;
+	float: left;
+}
+
+#contacts-form .field {
+	clear: both;
+}
+
+#contacts-form label {
+	float: left;
+	width: 112px !important;
+	width: 109px;
+	line-height: 18px;
+	padding-bottom: 8px;
+	color: rgb(0, 0, 0);
+}
+
+#contacts-form input {
+	width: 293px;
+	padding: 1px 0 1px 3px;
+	background: #000;
+	border: 1px solid #3a3a3a;
+	color: rgb(255, 255, 255);
+}
+
+#contacts-form textarea {
+	width: 730px;
+	height: 174px;
+	padding: 2px 28px 1px 28px;
+	background: url(../../Imagenes/Peliculas/Contacto/images/textarea-bg.gif) no-repeat left top;
+	border: 0;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	overflow: auto;
+}
+
+#contacts-form .link2 {
+	float: right;
+}
+
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+
+.box .inner {
+	padding: 28px 50px 25px 50px;
+}
+
+.fleft {
+	float: left;
+}
+
+.extra-wrap {
+	overflow: hidden;
+}
